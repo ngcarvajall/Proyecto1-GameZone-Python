@@ -57,7 +57,6 @@ def ppt_sl(num_rondas):
   for i in range(num_rondas):
     options = ['piedra','papel','tijera','lagarto','spock'] 
     user = input('piedra, papel, tijera, lagarto, spock').lower()
-    user = user.lower()
     computer = random.choice(options)
 
     if not user in options:
