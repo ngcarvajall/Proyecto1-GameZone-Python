@@ -1,3 +1,11 @@
-from src.ahorcado import jugar, gestion, mostrar_estado, opcion_letra
+### from src.ahorcado import jugar ### solo llamo jugar porque las demás funciones se llaman dentro
 
-jugar
+### jugar()
+
+### from src.ppt import jugar_ppt
+
+### jugar_ppt()
+
+from src.preguntados import preguntados_function
+
+preguntados_function()

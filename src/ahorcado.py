@@ -1,5 +1,5 @@
 import random
-print('Hola')
+LISTADO = ['python', 'desarrollador', 'programacion'] ### constante
 def jugar():
 
     dibujo_ahorcado = [
@@ -59,9 +59,7 @@ def jugar():
         ''',
     ]
 
-    lista_palabras = ['frikeo', 'python', 'hackio','cosinchis']
-
-    palabra_elegida = list(random.choice(lista_palabras))
+    palabra_elegida = list(random.choice(LISTADO))
     palabra_oculta =['_']*len(palabra_elegida)
     num_intentos = 6
     lista_abecedario = list('abcdefghijklmnñopqrstuvwxyz')
