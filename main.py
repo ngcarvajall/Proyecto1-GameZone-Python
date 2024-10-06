@@ -2,10 +2,14 @@
 
 ### jugar()
 
-### from src.ppt import jugar_ppt
+from src.ppt import jugar_ppt
 
-### jugar_ppt()
+jugar_ppt()
 
-from src.preguntados import preguntados_function
+### from src.preguntados import preguntados_function
 
-preguntados_function()
+### preguntados_function()
+
+from src.tres_rayas import iniciar_juego
+
+iniciar_juego()
